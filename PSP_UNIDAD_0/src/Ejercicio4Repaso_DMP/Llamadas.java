@@ -5,6 +5,7 @@ public abstract class Llamadas {
 	private String numOrigen;
 	private String numDestino;
 	protected int duracion;
+	private String nombre;
 	private int costeTotal;
 
 	public abstract double calcularCosteTotal();
